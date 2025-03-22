@@ -40,4 +40,34 @@ Default locale: en_BR, platform encoding: UTF-8
 OS name: "mac os x", version: "15.3.1", arch: "x86_64", family: "mac"
 
 ```
- 
+
+Em seguida, execute a aplicação na linha de comando utilizando o comando:
+
+```
+mvn spring-boot:run
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::             (v3.5.0-M3)
+
+2025-03-22T16:56:24.280-03:00  INFO 30950 --- [simple-springboot-api] [           main] b.c.i.a.s.SimpleSpringbootApiApplication : Starting SimpleSpringbootApiApplication using Java 17.0.13 with PID 30950 (/Users/fguerraoliveira/Projects/Impacta/workspace/simple-springboot-api/target/classes started by fguerraoliveira in /Users/fguerraoliveira/Projects/Impacta/workspace/simple-springboot-api)
+2025-03-22T16:56:24.284-03:00  INFO 30950 --- [simple-springboot-api] [           main] b.c.i.a.s.SimpleSpringbootApiApplication : No active profile set, falling back to 1 default profile: "default"
+2025-03-22T16:56:25.286-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8000 (http)
+2025-03-22T16:56:25.301-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-22T16:56:25.301-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-03-22T16:56:25.353-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-22T16:56:25.355-03:00  INFO 30950 --- [simple-springboot-api] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1018 ms
+2025-03-22T16:56:25.840-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-03-22T16:56:25.915-03:00  INFO 30950 --- [simple-springboot-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8000 (http) with context path '/'
+2025-03-22T16:56:25.934-03:00  INFO 30950 --- [simple-springboot-api] [           main] b.c.i.a.s.SimpleSpringbootApiApplication : Started SimpleSpringbootApiApplication in 2.094 seconds (process running for 2.392)
+```
+
+## Testes
+
+Execute a seguinte URL http://localhost:8000/ping em seu browser, e valide que o retorno seja "OK".
