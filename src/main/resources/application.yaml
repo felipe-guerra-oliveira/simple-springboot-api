@@ -2,5 +2,11 @@ spring:
   application:
     name: "simple-springboot-api"
 
+logging:
+  level:
+    org:
+      springframework:
+        web: "info"
+
 server:
   port: "8000"
