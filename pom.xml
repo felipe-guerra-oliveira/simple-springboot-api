@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>br.com.impacta.api</groupId>
 	<artifactId>simple-springboot-api</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>simple-springboot-api</name>
 	<description>Demo project for Spring Boot Application</description>
 	<url />
