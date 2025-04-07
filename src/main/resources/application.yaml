@@ -9,4 +9,4 @@ logging:
         web: "info"
 
 server:
-  port: "8000"
+  port: "8080"
